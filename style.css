@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: rgb(10, 13, 212);
+    color: #fff;
+}
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 60px;
+    padding: 20px 0;
+}
+.forms {
+    display: flex;
+    align-items: center;
+}
+.input {
+    flex-direction: column;
+    margin-right: 25px;
+}
+#login-email {
+    display: block;
+    outline: none;
+}
+.btn {
+    font-size: 10px;
+    height: 23px;
+    margin-top: 16px;
+    color: #fff;
+    background-color: rgb(45, 25, 230);
+    border: none;
+    box-shadow: 0px 0px 5px 1px rgb(7, 5, 124);
+    cursor: pointer;
+}
+.section {
+    background-color: rgb(230, 240, 233);
+}
+.section-block {
+    display: flex;
+    justify-content: space-between;
+}
+.article {
+}
+.title {
+    font-size: 30px;
+    padding-top: 50px;
+}
+.form-own {
+}
+.title-form {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 30px 0;
+}
+.text-section {
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.text-form {
+    font-size: 18px;
+    font-weight: 800;
+}
+.input-own {
+    outline: none;
+    width: 45%;
+    margin-top: 10px;
+    border: 2px solid rgb(230, 240, 233);
+    padding: 5px;
+}
+.mobile,
+.pass {
+    display: block;
+    width: 95%;
+}
+.inputs {
+    border: none;
+}
+
+.birthday {
+    border: none;
+    width: 100%;
+}
+.year {
+    font-size: 30px;
+}
+.data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.date {
+    outline: none;
+    border: none;
+    background-color: rgb(230, 240, 233);
+}
+.data-text {
+}
+.btn-form {
+    margin: 20px 0;
+    padding: 8px 50px;
+    border: none;
+    background-color: rgb(16, 139, 63);
+    color: #fff;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.create-page {
+    font-size: 18px;
+    font-weight: 800;
+}
