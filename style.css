@@ -114,10 +114,17 @@ body {
     color: #fff;
     font-weight: 800;
     border-radius: 5px;
+    cursor: pointer;
 }
 .create-page {
     font-size: 18px;
     font-weight: 800;
+}
+.anim-focus {
+    box-shadow: 0px 0px 4px 1px rgb(10, 13, 212);
+}
+.anim-blur {
+    box-shadow: 0px 0px 4px 1px rgb(226, 7, 7);
 }
 @media screen and (max-width: 950px) {
     .section-block {
